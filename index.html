@@ -7,11 +7,30 @@
     <title>Sunnyside Landing page ~ Pulsepoint</title>
     <link rel="shortcut icon" href="/Assets/favicon-32x32.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="w-full">
+<body class="w-full font-[lato]">
     <header class="h-screen">
-        <div class="h-full relative bg-cover bg-blue-500 bg-center bg-no-repeat bg-[url('/Assets/mobile/image-header.jpg')] md:bg-[url('/Assets/desktop/image-header.jpg')]">
+        <div
+            class="h-full relative bg-cover bg-blue-500 bg-center bg-no-repeat bg-[url('/Assets/mobile/image-header.jpg')] md:bg-[url('/Assets/desktop/image-header.jpg')]">
             <div class="flex justify-between w-full px-6 md:px-16 py-4 md:py-16 text-white  text-blue-500">
                 <h1 class="font-bold text-xl md:text-6xl bg-blue-900">sunnyside</h1>
                 <svg class="fill-current w-6 h-6 md:hidden" xmlns="http://www.w3.org/2000/svg" height="24px"
@@ -27,77 +46,73 @@
                 </ul>
             </div>
 
-            <div class="text-6xl flex text-center justify-center uppercase mt-24 text-white">We are creatives</div>
-            <div class="absolute items-center justify-center flex top-[500px] md:top-[400px] left-1/2"><img class="h-[260px] w-[50px]" src="/Assets/icon-arrow-down.svg" alt=""></div>
+            <div
+                class="text-6xl flex text-center justify-center uppercase font-extrabold mt-24 text-white font-[Fraunces]">
+                We are creatives</div>
+            <div class="absolute items-center justify-center flex top-[500px] md:top-[400px] left-1/2"><img
+                    class="h-[260px] w-[50px]" src="/Assets/icon-arrow-down.svg" alt=""></div>
         </div>
 
-        
+
     </header>
     <img src="" alt="">
 
-    <!-- <header class="bg-gray-600 flex w-full justify-center">
-        <div class="w-full px-8 justify-center flex  flex-col bg-yellow-800">
-            
-            <div class="text-center">
-                <h1 class="uppercase text-6xl text-white font-bolder">We are creatives</h1>
-            </div>
 
-            <div>
-                <div><img src="/Assets/icon-arrow-down.svg" alt=""></div>
-                <div><img src="" alt=""></div>
-
-                <div class="h-screen w-full bg-[url('/Assets/mobile/image-header.jpg')] md:bg-[url('/Assets/desktop/image-header.jpg')] bg-cover bg-center"></div>
-
-            </div>
-        </div>
-    </header> -->
     <main>
         <div class="grid md:grid-cols-2 ">
-            <div class="w-full h-[700px] md:order-2"><img class="w-full h-full" src="/Assets/mobile/image-transform.jpg"
-                    alt=""></div>
-            <div class="w-full h-[700px] md:order-1 justify-center items-center md:items-start p-12 flex flex-col">
-                <h1 class=" text-3xl">
+            <div class="w-full md:h-[700px] h-[400px] md:order-2"><img class="w-full h-full"
+                    src="/Assets/mobile/image-transform.jpg" alt=""></div>
+            <div
+                class="w-full md:h-[700px] h-[500px] md:order-1 justify-center items-center md:items-start p-12 flex flex-col">
+                <h1 class=" text-4xl font-[Fraunces] font-bold flex items-center justify-center text-center">
                     Transform your brand
                 </h1>
-                <p class="mt-6 font-light leading-loose">We are a full-service creative agency specializing in helping
+                <p class="mt-6 font-light leading-loose text-center md:text-start">We are a full-service creative agency specializing
+                    in helping
                     brands grow fast. Engage your clients
                     through compelling visuals that do most of the marketing for you.</p>
 
                 <h2
-                    class="text-2xl mt-8 uppercase inline-block relative before:content-[''] before:absolute before:w-full before:border-b-4 before:border-red-500 before:left-0 before:buttom-0 before:rounded-t before:shadow-2xl">
+                    class="text-1xl mt-8 uppercase inline-block font-[Fraunces] font-bold relative before:content-[''] before:absolute before:inset-x-0 before:bottom-0 before:h-[7px] before:bg-yellow-200 before:hover:active:bg-yellow-400 cursor-pointer">
                     Learn More</h2>
             </div>
 
-            <div class="w-full h-[700px] md:order-3"><img class="w-full h-full" src="/Assets/mobile/image-stand-out.jpg"
-                    alt=""></div>
-            <div class="w-full h-[700px] md:order-4 justify-center items-center md:items-start p-12 flex flex-col">
-                <h1 class=" text-3xl">
-                    Transform your brand
+
+
+
+            <div class="w-full md:h-[700px] h-[400px] md:order-3"><img class="w-full h-full"
+                    src="/Assets/mobile/image-stand-out.jpg" alt=""></div>
+            <div
+                class="w-full md:h-[700px] h-[500px] md:order-4 justify-center items-center md:items-start p-12 flex flex-col">
+                <h1 class=" text-4xl font-[Fraunces] font-bold flex items-center justify-center text-center">
+                    Stand out to the right audience
                 </h1>
-                <p class="mt-6 font-light leading-loose">We are a full-service creative agency specializing in helping
-                    brands grow fast. Engage your clients
-                    through compelling visuals that do most of the marketing for you.</p>
+                <p class="mt-6 font-light leading-loose text-center md:text-start">Using a collaborative formula designers,
+                    researchers, photographers, videographers and copywritters, we'll build and extend your brand in
+                    digital places</p>
 
                 <h2
-                    class="text-2xl mt-8 uppercase inline-block relative before:content-[''] before:absolute before:w-full before:border-b-4 before:border-red-500 before:left-0 before:buttom-0 before:rounded-t before:shadow-2xl">
+                    class="text-1xl mt-8 uppercase inline-block font-[Fraunces] font-bold relative before:content-[''] before:absolute before:inset-x-0 before:bottom-0 before:h-[7px] before:bg-red-200 before:hover:active:bg-red-700 cursor-pointer">
                     Learn More</h2>
             </div>
+
+
+
+
+
             <div
                 class="w-full h-[700px] md:order-5 flex justify-center bg-center bg-[url('/Assets/mobile/image-graphic-design.jpg')] md:bg-[url('/Assets/desktop/image-graphic-design.jpg')] bg-cover md:object-contain relative">
-                <div class="absolute p-12 flex order-1 flex-col justify-center items-center top-[400px]">
-                    <h1 class=" text-3xl">
-                        Transform your brand
+                <div class="absolute p-12 flex order-6 flex-col justify-center items-center top-[400px]">
+                    <h1 class=" text-4xl font-[Fraunces] text-red-700 font-bold flex items-center justify-center text-center">
+                        Graphic Design
                     </h1>
-                    <p class="mt-6 font-light leading-loose">We are a full-service creative agency specializing in
-                        helping
-                        brands grow fast. Engage your clients
-                        through compelling visuals that do most of the marketing for you.</p>
+                    <p class="mt-6 font-light leading-loose">Great design makes you memorable. we deliver artwork that underscores your brand message and captures potential clients' attention.</p>
                 </div>
 
             </div>
 
             <div
-                class="w-full h-[700px] md:order-6 flex justify-center bg-center bg-[url('/Assets/mobile/image-photography.jpg')] md:bg-[url('/Assets/desktop/image-photography.jpg')] bg-cover md:object-contain relative">
+                class="w-full h-[700px] md:order-7 flex justify-center bg-center bg-[url('/Assets/mobile/image-photography.jpg')] md:bg-[url('/Assets/desktop/image-photography.jpg')] bg-cover md:object-contain relative">
                 <div class="absolute p-12 flex flex-col justify-center items-center top-[400px]">
                     <h1 class=" text-3xl">
                         Transform your brand
@@ -177,10 +192,10 @@
 
 
 
-    <footer class="bg-slate-400 flex justify-center py-16">
+    <footer class="bg-teal-400 flex justify-center py-16">
         <div class="md:w-1/3 flex flex-col w-full justify-center">
             <div class="text-center">
-                <h1 class="text-slate-700 font-bold text-2xl mb-4">sunnyside</h1>
+                <h1 class="text-red-500 font-bold text-2xl mb-4">sunnyside</h1>
             </div>
             <div class="mt-6 flex w-full  justify-center">
                 <ul class="flex justify-around w-full  font-light text-slate-600 cursor-pointer">
@@ -198,6 +213,8 @@
         </div>
 
     </footer>
+
+    <script src="/script.js"></script>
 </body>
 
 </html>
