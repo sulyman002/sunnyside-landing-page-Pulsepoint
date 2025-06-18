@@ -33,19 +33,20 @@
             class="h-full relative bg-cover bg-blue-500 bg-center bg-no-repeat bg-[url('/Assets/mobile/image-header.jpg')] md:bg-[url('/Assets/desktop/image-header.jpg')]">
             <div class="flex justify-between w-full px-6 md:px-16 py-4 md:py-16 text-white  text-blue-500">
                 <h1 class="font-bold text-xl md:text-5xl ">sunnyside</h1>
-                <svg class="fill-current w-6 h-6 md:hidden" xmlns="http://www.w3.org/2000/svg" height="24px"
-                    viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                <svg class="fill-current w-6 h-6 md:hidden cursor-pointer" id="hambuger" xmlns="http://www.w3.org/2000/svg"
+                    height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
                     <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
                 </svg>
+                    <ul class="hidden md:relative absolute md:top-0 top-[90px] md:p-0 py-8 bg-blue-200 md:w-auto flex-col transition-all duration-[5000ms] md:flex-row w-full flex items-center justify-center md:flex md:bg-opacity-0 gap-16 md:items-center text-2xl" id="nav_content">
+                        <li><a href="#">About</a></li> 
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li
+                            class="px-7 py-4 bg-white rounded-full font-[Fraunces] font-bold text-xl cursor-pointer md:hover:bg-blue-300 text-black hover:text-white ">
+                            <a href="#" class="uppercase hover:text-white">Contact</a>
+                        </li>
+                    </ul>
 
-                <ul class="hidden md:flex gap-16 md:items-center text-2xl">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li
-                        class="px-7 py-4 bg-white rounded-full font-[Fraunces] font-bold text-xl cursor-pointer md:hover:bg-blue-300 text-black hover:text-white ">
-                        <a href="#" class="uppercase hover:text-white">Contact</a></li>
-                </ul>
             </div>
 
             <div
@@ -208,13 +209,18 @@
                     <li><a href="#" class="hover:text-white active:text-white hover:font-bold">About</a></li>
                     <li><a href="#" class="hover:text-white active:text-white hover:font-bold">Services</a></li>
                     <li><a href="#" class="hover:text-white active:text-white hover:font-bold">projects</a></li>
+
                 </ul>
             </div>
             <div class="flex justify-center mt-6 gap-4 ">
-                <div class="cursor-pointer active:bg-white text-white"> <img class="w-4 fill-current" src="/Assets/icon-facebook.svg" alt=""></div>
-                <div class="cursor-pointer active:bg-white text-white"> <img class="w-4 fill-current" src="/Assets/icon-instagram.svg" alt=""></div>
-                <div class="cursor-pointer active:bg-white text-white"> <img class="w-4 fill-current" src="/Assets/icon-twitter.svg" alt=""></div>
-                <div class="cursor-pointer active:bg-white text-white"> <img class="w-4 fill-current" src="/Assets/icon-pinterest.svg" alt=""></div>
+                <div class="cursor-pointer active:bg-white text-white"> <img class="w-4 fill-current"
+                        src="/Assets/icon-facebook.svg" alt=""></div>
+                <div class="cursor-pointer active:bg-white text-white"> <img class="w-4 fill-current"
+                        src="/Assets/icon-instagram.svg" alt=""></div>
+                <div class="cursor-pointer active:bg-white text-white"> <img class="w-4 fill-current"
+                        src="/Assets/icon-twitter.svg" alt=""></div>
+                <div class="cursor-pointer active:bg-white text-white"> <img class="w-4 fill-current"
+                        src="/Assets/icon-pinterest.svg" alt=""></div>
             </div>
         </div>
 

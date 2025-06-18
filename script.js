@@ -1,20 +1,9 @@
-module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        barlow: ['Barlow', 'sans-serif'],
-      },
-    },
-  },
-}
+const hamburger_icon = document.querySelector('#hambuger');
+const hamburger_content = document.getElementById('nav_content');
+
+// hamburger_content = hamburger_content.style.transform = 2s;
 
 
-module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        fraunces: ['Fraunces', 'serif'],
-      },
-    },
-  },
-}
+hamburger_icon.addEventListener('click', function () {
+    hamburger_content.classList.toggle('hidden');
+});
